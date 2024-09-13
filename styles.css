@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: #1dbafd;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.cta-button {
+    background: #29e7fd;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background: #1a191f;
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+/* Contact Form */
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background: #1dbafd;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #29e7fd;
+}
+
+/* Footer */
+footer {
+    background: #1a191f;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
