@@ -3,92 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gett Tech Solutions - Salesforce & Operations Consulting</title>
+    <title>Your Website</title>
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
-    <header>
-        <div class="slider-container">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <!-- Slide 1 -->
-                    <div class="swiper-slide">
-                        <img src="assets/images/slide1.jpg" alt="Slide 1">
-                        <div class="slide-content">
-                            <h1>Gett Tech Solutions</h1>
-                            <p>Expert Salesforce Development & Operations Consulting</p>
-                        </div>
-                    </div>
-                    <!-- Slide 2 -->
-                    <div class="swiper-slide">
-                        <img src="assets/images/slide2.jpg" alt="Slide 2">
-                        <div class="slide-content">
-                            <h1>Streamline Your Operations</h1>
-                            <p>Optimize your business processes for greater efficiency.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
-            </div>
-        </div>
-    </header>
-
-    <section id="about">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>At Gett Tech Solutions, we specialize in delivering customized Salesforce solutions and optimizing business operations for companies looking to streamline their processes and drive growth. With years of experience in the industry, we bring a wealth of knowledge and a track record of success to every project.</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Site</h1>
+            <p>Your tagline or key message here</p>
+            <a href="#services" class="btn">Learn More</a>
         </div>
     </section>
 
-    <section id="services">
-        <div class="container">
-            <h2>Our Services</h2>
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
             <div class="service">
-                <h3>Salesforce Development</h3>
-                <p>We offer end-to-end Salesforce customization, integration, and development services to help your business harness the full power of Salesforce.</p>
+                <img src="assets/images/service1.jpg" alt="Service 1">
+                <h3>Service 1</h3>
+                <p>Description of service 1</p>
             </div>
             <div class="service">
-                <h3>Operations Consulting</h3>
-                <p>Our operations consulting services focus on optimizing your business processes, enhancing efficiency, and driving operational excellence.</p>
+                <img src="assets/images/service2.jpg" alt="Service 2">
+                <h3>Service 2</h3>
+                <p>Description of service 2</p>
             </div>
             <div class="service">
-                <h3>Travel Management Solutions</h3>
-                <p>Specialized solutions for the travel industry, including booking systems, payment processing, and customer service optimization.</p>
+                <img src="assets/images/service3.jpg" alt="Service 3">
+                <h3>Service 3</h3>
+                <p>Description of service 3</p>
             </div>
         </div>
     </section>
 
-    <section id="portfolio">
-        <div class="container">
-            <h2>Portfolio</h2>
-            <p>Explore our case studies to see how we’ve helped companies like Robbins Research International, Slowtide.co, SUCCESS, and Tripsite.com achieve their business goals.</p>
-            <a href="#contact" class="cta-button">Contact Us</a>
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <p>"Great service!" - Client Name</p>
+        </div>
+        <div class="testimonial">
+            <p>"Highly recommend!" - Another Client</p>
         </div>
     </section>
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <p>Ready to transform your business? Get in touch with us today to discuss your project and how we can help.</p>
-            <form action="https://formspree.io/your-email" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="_replyto" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="https://example.com/submit-form" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
 
+    <!-- Footer Section -->
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Gett Tech Solutions. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://twitter.com/yourhandle"><img src="assets/images/twitter-icon.png" alt="Twitter"></a>
+            <a href="https://linkedin.com/yourhandle"><img src="assets/images/linkedin-icon.png" alt="LinkedIn"></a>
         </div>
+        <p>&copy; 2024 Your Company</p>
     </footer>
 
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/js/scripts.js"></script>
 </body>
 </html>

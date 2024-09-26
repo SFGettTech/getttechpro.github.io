@@ -1,96 +1,106 @@
-/* General Styles */
+/* General styles */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    line-height: 1.6;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
+a {
+    text-decoration: none;
+    color: #29e7fd;
 }
 
-/* Slider */
-.slider-container {
-    position: relative;
-    width: 100%;
+/* Hero Section */
+.hero {
     height: 100vh;
-}
-
-.swiper-container {
-    width: 100%;
-    height: 100%;
-}
-
-.swiper-slide img {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-}
-
-.slide-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+    background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
     text-align: center;
 }
 
-.slide-content h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
+.hero-content h1 {
+    font-size: 3rem;
 }
 
-.slide-content p {
-    font-size: 1.2em;
+.btn {
+    background-color: #1a191f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 20px;
 }
 
-/* Sections */
-section {
-    padding: 60px 0;
-}
-
-section h2 {
+/* Services Section */
+.services {
+    padding: 40px;
+    background-color: #f4f4f4;
     text-align: center;
-    margin-bottom: 20px;
+}
+
+.service-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .service {
+    margin: 20px;
+    width: 30%;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #68676c;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.testimonial {
     margin-bottom: 20px;
 }
 
-/* Contact Form */
+/* Contact Section */
+.contact {
+    padding: 40px;
+    text-align: center;
+}
+
 form input,
 form textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
 
 form button {
-    background: #1dbafd;
+    background-color: #29e7fd;
+    padding: 10px 20px;
     color: #fff;
-    padding: 10px;
     border: none;
-    cursor: pointer;
     border-radius: 5px;
 }
 
-form button:hover {
-    background: #29e7fd;
-}
-
-/* Footer */
+/* Footer Section */
 footer {
-    background: #1a191f;
+    background-color: #1a191f;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
-    margin-top: 20px;
+    padding: 20px;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
 }
